@@ -49,13 +49,16 @@ body{
     font-size: 16px;
     line-height: 24px;
     color: #67727E;
+    margin-bottom: 16px;
 }
 
 .endfoot{
     width: 100%;
     display: flex;  
     justify-content: space-between;
-
+    padding-left: 16px;
+    margin-top: 16px;
+    padding-right: 16px;
 }
 
 .plusminus{
@@ -71,7 +74,7 @@ body{
 
 .amyrobson{
     width:343px;
-    height: 256px;
+    height: 280px;
     background: #FFFFFF;
     border-radius: 8px;
     padding-top: 16px;
@@ -126,10 +129,11 @@ body{
 
 
 .ramses{
-    width:343px;
-    height: 256px;
+    width:325px;
+    height: 280px;
     background: #FFFFFF;
     border-radius: 8px;  
+    
 }
 
 
@@ -145,4 +149,188 @@ body{
     display: flex;
     flex-direction: column;
     row-gap: 16px;
+    padding-left: 16px;
+    border-left: 2px solid  #E9EBF0;
+    
+    
+    
+}
+
+.replybtn{
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+}
+
+.reply{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #5357B6;
+    text-transform: capitalize;
+}
+
+.score{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #5357B6;
+}
+
+
+.addcomm{
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+
+.footwrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 343px;
+    height: 189px;
+    border-radius: 8px;
+}
+
+input{
+    width: 311px;
+    height: 96px;
+    border: 1px solid #E9EBF0;
+    border-radius: 8px;
+}
+
+input::placeholder{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #67727E;
+    padding-left:24px;
+    
+}
+
+.photoandsubmit{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 16px;
+    align-items: center;
+}
+
+.myimage{
+    width:32px;
+    height: 32px;
+}
+
+.submit{
+    width: 104px;
+    height: 48px;
+    background: #5357B6;
+    border-radius: 8px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-transform:uppercase;
+    border: none;
+
+
+
+}
+
+.line{
+    width: 2px;
+    height: 576px;
+    background: #E9EBF0;
+}
+
+.forline{
+    display: flex;
+    flex-direction: row;
+}
+
+.imgramsjul{
+    width: 32px;
+    height: 32px;
+}
+
+.ramsesmiron{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #334253;
+}
+
+.you{
+    width: 36px;
+    height: 19px;
+    background: #5357B6;
+    border-radius: 2px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    color: #FFFFFF;
+    text-align: center;
+    border: none;
+}
+
+.textsreplies{
+   
+    height: 144px;
+    margin-top: 20px;
+}
+
+.text{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #67727E;
+    padding-left: 16px;
+}
+
+.mention{
+    color: #5357B6;
+}
+
+.delete{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ED6368;
+    text-transform: capitalize;
+}
+
+.edit{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #5357B6;
+    text-transform: capitalize;
+}
+
+.imgplus:hover{
+    cursor: pointer;
+}
+.imgminus:hover{
+    cursor: pointer;
 }
